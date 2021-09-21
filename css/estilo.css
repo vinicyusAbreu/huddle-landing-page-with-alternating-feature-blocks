@@ -1,0 +1,393 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        .cabeça {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-image: url(../img/bg-hero-mobile.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #edfbfe;
+            flex-wrap: wrap;
+            padding-bottom: 2rem;
+        }
+        
+        .menu {
+            width: 95%;
+            height: 2rem;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.3rem;
+            align-items: center;
+        }
+        
+        .logo {
+            height: 1rem;
+        }
+        
+        .botão {
+            background-color: #ffffff;
+            display: inline-block;
+            padding: .4rem 1.2rem;
+            border-radius: 1rem;
+            font-size: .6rem;
+            text-decoration: none;
+            font-weight: 700;
+            color: black;
+            box-shadow: 3px 3px 17px -7px rgba(0, 0, 0, 0.75);
+        }
+        
+        .botão:hover {
+            text-shadow: 0px 0px 6px rgb(189, 177, 177);
+            box-shadow: 0px 5px 40px -10px rgb(0, 0, 0);
+            transition: all 0.4s ease 0s;
+        }
+        
+        .container-cabeça {
+            margin-top: 5rem;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .conteudo-cabeça {
+            text-align: center;
+            padding-bottom: 4rem;
+        }
+        
+        .titulo-cabeça {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .paragrafo-cabeça {
+            margin-bottom: 2rem;
+            font-size: .94rem;
+        }
+        
+        .btn {
+            background-color: hsl(322, 100%, 66%);
+            padding: .7rem 2.5rem;
+            color: #ffffff;
+            font-size: .8rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 2rem;
+        }
+        
+        .btn:hover {
+            color: #404040 !important;
+            font-weight: 700 !important;
+            letter-spacing: 3px;
+            background: none;
+            box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+            transition: all 0.3s ease 0s;
+        }
+        
+        .ilustração {
+            width: 15rem;
+        }
+        
+        .principal {
+            margin-top: 4rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .seção {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 17px -8px rgba(0, 0, 0, 0.75);
+            margin-bottom: 2rem;
+        }
+        
+        .seção2 {
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 17px -8px rgba(0, 0, 0, 0.75);
+            margin-bottom: 2rem;
+        }
+        
+        .seção-img {
+            margin-top: 1.5rem;
+            height: 12rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .seção-conteudo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .seção-h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .seção-p {
+            margin-bottom: 1.5rem;
+            color: hsl(208, 11%, 55%);
+            font-size: .9rem;
+            width: 85%;
+            text-align: center;
+        }
+        
+        .card {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            height: 9rem;
+            border-radius: .5rem;
+            box-shadow: 2px 2px 17px -8px rgba(0, 0, 0, 0.75);
+            position: relative;
+            top: 3rem;
+            background-color: #ffffff;
+        }
+        
+        .card-h1 {
+            padding-top: 2rem;
+            margin-bottom: 2rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        
+        footer {
+            width: 100%;
+            background-color: hsl(192, 100%, 9%);
+            padding-top: 8rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .rodape {
+            width: 85%;
+        }
+        
+        .contato {
+            margin-bottom: 2rem;
+        }
+        
+        .contato-logo {
+            width: 10rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contato-conteudo {
+            margin-bottom: 1rem;
+        }
+        
+        .contato-conteudo img {
+            margin-right: 1rem;
+            position: relative;
+            top: .2rem;
+        }
+        
+        .contato-conteudo span {
+            color: #ffffff;
+            font-size: .9rem;
+        }
+        
+        .sobre {
+            margin-bottom: 3rem;
+        }
+        
+        .sobre ul {
+            list-style: none;
+        }
+        
+        .sobre li {
+            margin-bottom: 1rem;
+        }
+        
+        .sobre a {
+            list-style: none;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: .9rem;
+        }
+        
+        .sobre a:hover {
+            text-decoration: underline;
+            color: hsl(322, 100%, 66%);
+        }
+        
+        .icone {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .icone li {
+            margin-right: .6rem;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding: .35rem .5rem;
+            text-align: center;
+            font-size: .8rem;
+            color: #ffffff;
+        }
+        
+        .Vini {
+            background-color: hsl(192, 100%, 9%);
+            color: #fff;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Vini p {
+            font-size: .7rem;
+        }
+        
+        @media(min-width:720px) {
+            .logo {
+                height: 1.5rem;
+            }
+            .botão {
+                padding: .5rem 2.5rem;
+                font-size: .7rem;
+            }
+            .container-cabeça {
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                width: 95%;
+                padding-bottom: 3rem;
+            }
+            .conteudo-cabeça {
+                width: 40%;
+                text-align: left;
+                padding-top: 6rem;
+            }
+            .titulo-cabeça {
+                font-size: 2.2rem;
+            }
+            .ilustração {
+                width: 57%;
+            }
+            .paragrafo-cabeça {
+                font-size: 1rem;
+            }
+            .seção-img {
+                height: 14rem;
+            }
+            .seção {
+                flex-direction: row-reverse;
+                justify-content: space-around;
+            }
+            .seção:hover {
+                transition: all .2s ease-in-out;
+                transform: scale(1.01);
+            }
+            .seção2:hover {
+                transition: all .2s ease-in-out;
+                transform: scale(1.01);
+            }
+            .seção-conteudo {
+                width: 50%;
+                display: inline;
+                text-align: left;
+            }
+            .seção-h1 {
+                font-size: 1.5rem;
+            }
+            .seção-p {
+                font-size: 1rem;
+                text-align: left;
+            }
+            .seção2 {
+                justify-content: space-around;
+            }
+            .seção2 .seção-h1 {
+                position: relative;
+                left: 5rem;
+            }
+            .seção2 .seção-p {
+                position: relative;
+                left: 5rem
+            }
+            .card {
+                width: 50%;
+                height: 11rem;
+                top: 4rem;
+            }
+            .card-h1 {
+                font-size: 1.5rem;
+            }
+            .card>.btn {
+                padding: .7rem 3.5rem;
+                font-size: 1rem;
+            }
+            .rodape {
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .contato {
+                width: 25%;
+            }
+            .sobre {
+                width: 33%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .sobre ul {
+                padding-top: 2.2rem;
+            }
+            .icone {
+                width: 20%;
+                padding-top: 4.1rem;
+            }
+            .contato-logo {
+                width: 12rem;
+                margin-bottom: 2rem;
+            }
+            .contato-conteudo span {
+                font-size: .8rem;
+            }
+            .Vini {
+                display: block;
+                text-align: right;
+                padding-bottom: .5rem;
+            }
+            .Vini p {
+                font-size: .7rem;
+                margin-right: 2rem;
+            }
+        }
